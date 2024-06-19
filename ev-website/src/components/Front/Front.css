@@ -1,0 +1,57 @@
+.front{
+    margin: 0px 120px;
+    margin-top: 270px;
+}
+.front-text{
+    color: #fff;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 130px;
+}
+.front-explore{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    background: white;
+    cursor: pointer;
+}
+.front-explore p{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+.front-dot-play{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.front-dots{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+.front-dot{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 7.5px;
+}
+.front-dot.orange{
+    background: orangered;
+}
+.front-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.front-play p{
+    color: white;
+    font-size: 19px;
+}
